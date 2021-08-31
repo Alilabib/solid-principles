@@ -7,8 +7,12 @@
  */
 
 use classes\Match;
+use classes\Player;
 
 require __DIR__ . '/../vendor/autoload.php';
-
- $match = new Match();
+ $players = [];
+ for($index=1;$index<12;$index++){
+    array_push($players,new Player());
+ }
+ $match = new Match($players);
  $match->start();
