@@ -1,0 +1,11 @@
+{
+    "name": "app/php-solid",
+    "description": "Solid in PHP example",
+    "authors": [
+        {
+            "name": "Ali Labib",
+            "email": "alilabib65@gmail.com"
+        }
+    ],
+    "require": {}
+}
