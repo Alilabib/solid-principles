@@ -1,7 +1,7 @@
 <?php 
 namespace classes;
 
-class Match{
+class FootballMatch{
     private $playerList;
     public function __construct(Array $players)
     {   

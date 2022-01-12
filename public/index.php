@@ -9,7 +9,7 @@
 use classes\AttackPlayer;
 use classes\DefencePlayer;
 use classes\KeepingPlayer;
-use classes\Match;
+use classes\FootballMatch;
 use classes\Player;
 
 require __DIR__ . '/../vendor/autoload.php';
@@ -23,5 +23,5 @@ require __DIR__ . '/../vendor/autoload.php';
 
  array_push($players, new KeepingPlayer());
 
- $match = new Match($players);
+ $match = new FootballMatch($players);
  $match->start();
