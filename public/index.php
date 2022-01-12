@@ -10,7 +10,6 @@ use classes\AttackPlayer;
 use classes\DefencePlayer;
 use classes\KeepingPlayer;
 use classes\FootballMatch;
-use classes\Player;
 
 require __DIR__ . '/../vendor/autoload.php';
  $players = [];
