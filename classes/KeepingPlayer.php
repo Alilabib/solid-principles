@@ -3,11 +3,13 @@
 namespace classes;
 
 use interfaces\PlayerInterface;
+use Players\ChildKeeper;
 
 class KeepingPlayer implements PlayerInterface{
      
     public function play()
     {
-        echo "Goal Keeping";
+        $keeper = new ChildKeeper();
+        echo $keeper->keeping();
     }
 }

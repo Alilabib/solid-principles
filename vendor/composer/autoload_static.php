@@ -15,6 +15,10 @@ class ComposerStaticInit8ff624a11e091437e6cbdea101a9934e
         array (
             'classes\\' => 8,
         ),
+        'P' => 
+        array (
+            'Players\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +29,10 @@ class ComposerStaticInit8ff624a11e091437e6cbdea101a9934e
         'classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/classes',
+        ),
+        'Players\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Players',
         ),
     );
 

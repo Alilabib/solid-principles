@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'interfaces\\' => array($baseDir . '/interfaces'),
     'classes\\' => array($baseDir . '/classes'),
+    'Players\\' => array($baseDir . '/Players'),
 );
