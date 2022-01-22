@@ -4,12 +4,14 @@ namespace classes;
 
 use interfaces\PlayerInterface;
 use Players\ChildKeeper;
+use Players\ParentKeeper;
 
 class KeepingPlayer implements PlayerInterface{
      
     public function play()
     {
-        $keeper = new ChildKeeper();
+        $keeper = new ParentKeeper;
+        // $keeper = new ChildKeeper();
         echo $keeper->keeping();
     }
 }
