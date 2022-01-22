@@ -14,7 +14,15 @@ class FootballMatch{
         echo "<br>";
         foreach($this->playerList as $player){
             echo "<br>";
-            $player->attack();
+            if($player instanceof AttackPlayer){
+                $player->Attack();
+            }elseif( $player instanceof DefencePlayer){
+                $player->keeping();
+            }
+            // elseif($player instanceof KeepingPlayer){
+            //     $player->Keeping();
+            // }
+
             echo "<br>";
 
         }
