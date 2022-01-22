@@ -1,25 +1,13 @@
 <?php 
 namespace classes;
+
+use interfaces\DefenseInterface;
 use interfaces\PlayerInterface;
-class DefencePlayer implements PlayerInterface{
-
-    // public function play()
-    // {
-    //     echo "defence";   
-    // }
-
-    public function Attack()
-    {
-        
-    }
+class DefencePlayer implements DefenseInterface{
 
     public function Defence()
     {
         echo "Defence ";
     }
 
-    public function Keeping()
-    {
-        
-    }
 }

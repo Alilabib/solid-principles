@@ -2,28 +2,13 @@
 
 namespace classes;
 
+use interfaces\KeepingInterface;
 use interfaces\PlayerInterface;
 use Players\ChildKeeper;
 use Players\ParentKeeper;
 
-class KeepingPlayer implements PlayerInterface{
+class KeepingPlayer implements KeepingInterface{
      
-    // public function play()
-    // {
-    //     $keeper = new ParentKeeper;
-    //     // $keeper = new ChildKeeper();
-    //     echo $keeper->keeping();
-    // }
-
-    public function Attack()
-    {
-    }
-
-    public function Defence()
-    {
-        
-    }
-
     public function Keeping()
     {
                 $keeper = new ParentKeeper;
