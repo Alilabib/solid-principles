@@ -14,7 +14,7 @@ class FootballMatch{
         echo "<br>";
         foreach($this->playerList as $player){
             echo "<br>";
-            $player->play();
+            $player->attack();
             echo "<br>";
 
         }

@@ -5,10 +5,24 @@ use interfaces\PlayerInterface;
 
 class AttackPlayer implements PlayerInterface{
 
-    public function play()
+    // public function play()
+    // {
+    //     echo "Attack";
+    // }
+
+    public function Attack()
     {
-        echo "Attack";
+        echo "Attacker attack";
     }
 
+    public function Defence()
+    {
+        
+    }
+
+    public function Keeping()
+    {
+        
+    }
 
 }
